@@ -1,0 +1,26 @@
+title : Air to Z Index
+port: 8888
+
+markdown: rdiscount
+highlighter: pygments
+permalink: /:year/:month/:title.html
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.txt"]
+
+
+navigation:
+ - text: home
+   url: /
+ - text: workouts
+   url: /workouts.html
+ - text: skills
+   url: /workouts.html
+ - text: tips
+   url: /performance.html
+
+sass:
+  sass_dir: _sass
+  style: :expanded
+  # nested
+  # expanded
+  # compact
+  # compressed

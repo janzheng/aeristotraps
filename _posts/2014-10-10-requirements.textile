@@ -1,0 +1,13 @@
+---
+layout: layout-post
+title: Requirements & Requests
+summary: Internal requirements and requests
+
+comments: true
+source: /app/posts/first-post
+tags : [ux, requirements, design]
+phase: requirements 
+status: draft
+---
+
+h2. placeholder

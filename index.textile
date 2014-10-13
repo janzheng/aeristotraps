@@ -1,0 +1,30 @@
+---
+layout: layout-post
+title: Air to Z Index
+
+source: /app/posts/intro
+---
+
+
+h2. The Air to Z Index
+
+The Air to Z Index is a dictionary of different tips, skills, and exercises on the ground and using aerial equipment, for strengthening and conditioning. This content is a catalogue and does not intend to teach those unfamiliar with the move.
+
+*Note* This content does not replace professional instruction. Always use a spotter, mats, and know your limits.
+
+*Use the information at your own risk.*
+
+
+
+h2. Content
+
+The content is split into workouts and skills. 
+
+<div class="shift-1">
+
+*Workouts* include weight, ground, and air exercises for strengthening and conditioning.
+
+*Skills* include ground, dance, and air movements, transitions, tricks, and drops for fun and for performances. 
+
+*Thoughts* includes ideas for improvisation and showcasing. 
+</div>

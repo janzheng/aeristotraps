@@ -1,0 +1,259 @@
+
+{% assign url = page.url|remove:'index.html' %}
+{% assign navlist = site.navigation %}
+
+{% assign index = "a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z" | split: "|" %}
+
+
+<!-- 
+
+  container--shell
+    container
+    /
+  /
+
+
+ 
+ <head>
+  <meta charset="utf-8">
+  <meta name="description" content="Dickson Fong is a digital product designer for web, mobile, tablet, and television.">
+ -->
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="Jan Zheng designs and prototypes experiences.">
+  <meta name="author" content="Jan Zheng">
+  <meta name="keywords" content="user experience, ux, interaction design, digital, advertising, ui design, code, prototyping, resume ,portfolio">
+  
+  <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1" />
+
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:100' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic' rel='stylesheet' type='text/css'> -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600, 700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/app/css/royalslider.css" > 
+  <link rel="stylesheet" href="/app/css/minimal-white/rs-minimal-white.css" >
+
+<!-- 
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   -->
+  <script src="/app/js/jquery.min.js"></script>
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.png">
+
+  <!-- import gets all the styles from main.scss in the _scss folder -->
+  <link rel="stylesheet" href="/app/css/import.css">
+<!-- 
+  <link rel="stylesheet" href="/assets/stylesheets/compiled/flexslider.css">
+  <link rel="stylesheet" href="/assets/stylesheets/compiled/slimbox2.css">
+   -->
+</head>
+
+<body id="skrollr-body">  
+
+  <div class="nav">
+
+    <div class="nav--logo">
+      <a class="nav--logo-link" href="/">
+        <div class="nav--logo--content ">
+          Air to Z Index
+        </div>
+      </a>
+    </div>
+
+    <!-- Main navigation buttons -->
+    <div class="nav--menu">
+      <div class="nav--menu--content">
+      <!-- generate links and mark nav as active -->
+      {% for item in navlist %} 
+        <a href="{{item.url}}">
+          <div class="nav--menu-item nav--menu--home {% if url == item.url %}active{% endif %}" >
+            <div class="label"><span>{{item.text}}</span></div>
+          </div>
+        </a>
+
+      {% endfor %}
+      </div>
+    </div>
+
+    <!-- 
+
+
+    Phases:
+      - requirements
+      - ideation
+      - concept
+      - design
+      - build
+
+
+     -->
+    <div class="nav--blog-menu">
+      <div class="nav--blog-menu--content">
+
+        <ul class="list">
+
+
+          {% for ind in index %}
+
+          <div class="post-phase-list">
+            <div class="post-phase">{{ind}}</div>
+            <div class="post-phase-divider"></div>
+
+            {% for post in site.posts %}
+
+              {% if ind == post.ind %}
+                <li class="post">
+
+                  <a class="post--link" href="{{ post.url }}">
+                    <div class="post--container {{ post.preview-css }} {% if post.preview-img == nil %} post--preview-no-img {% else %} post--preview-img" data-bg="{{ post.preview-img }} {% endif %}"> 
+
+                      <div class="post--info">
+
+                        <div class="post--info--date-container">
+                          <!-- <div class="post--info--date">{{ post.date | date: "%d %b, %Y" }}</div> -->
+                        </div>
+
+                        <div class="post--info--title-container">
+                          <div class="post--info--title {{ post.status }}  {% if post.url == url %}active{% endif %}">{{ post.title }}</div>
+                        </div>
+
+                        <div class="clear"></div>
+                      </div>
+
+                    </div>
+
+                  </a>
+
+                </li>
+
+              {% endif %}
+
+            {% endfor %}
+
+          </div>
+          <!-- end phaselist -->
+          {% endfor %}
+
+
+        </ul>
+
+
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+  </div>
+  <!-- End sidebar navigation -->
+
+
+  <!-- This thing appears fixed on mobile view to let users scroll up to the menu. This is so fixed menu takes less space -->
+  <a href="#top">
+    <div class="nav-mobile-container">
+      <div class="nav-mobile" data-0="display: none" data-100="display: block">
+        <div class="svg-container icon-uptop ">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"> <polygon id="arrow-25-icon" points="142.332,104.886 197.48,50 402.5,256 197.48,462 142.332,407.113 292.727,256 "></polygon> </svg>
+        </div>
+      </div>
+    </div>
+  </a>
+
+
+
+  <div class="clear"></div>
+
+
+
+  <div class="container--shell" id="body--content">
+    <div class="container">
+
+
+      <!-- Main section for content -->
+      <div class="main">
+        <div class="content">
+          {{ content }}
+        </div>
+      </div>
+
+
+    </div>
+    <!-- End container -->
+
+  </div>
+    <!-- End container-shell -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+  <script src="//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.0.6-development-only.js"></script>
+ -->
+  <!-- Google Prettify - https://code.google.com/p/google-code-prettify/wiki/GettingStarted 
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&lang=html&lang=js&skin=desert"></script>
+  -->
+
+
+  <!-- <script src="/assets/js/plugins.js"></script> -->
+  <!-- 
+  <script src="/app/js/jquery.flexslider-min.js"></script>
+  <script src="/app/js/slimbox2.js"></script>
+ -->
+
+  <script src="/app/js/waypoints.min.js"></script>
+  <script src="/app/js/skrollr.min.js"></script>
+
+  <script src="/app/js/list.min.js"></script>
+  <script src="/app/js/jquery.fluidbox.min.js"></script>
+  <script src="/app/js/jquery.royalslider.min.js"></script>
+  
+  <script src="/app/js/script.js"></script>
+
+
+  <!-- 
+  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+  google.load("feeds", "1") //Load Google Ajax Feed API (version 1)
+  </script>
+
+  <script type="text/javascript" src="http://funkability.tumblr.com/api/read/json"></script>
+
+  <script type="text/javascript">
+      // The variable "tumblr_api_read" is now set.
+      // console.log('tumblr json: ' + JSON.stringify(tumblr_api_read['tumblelog'] ));
+      // console.log('tumblr json: ' + JSON.stringify(tumblr_api_read["posts"][0]['url'] ));
+
+      console.log('<a href="' + tumblr_api_read['posts'][0]['url'] + '">Most recent Tumblr post</a>');
+  </script>
+   -->
+
+</body>
+</html>

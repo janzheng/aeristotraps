@@ -1,0 +1,17 @@
+---
+layout: layout-post
+title: Customer Journey
+summary: How customers interact with Community and Support
+
+comments: true
+source: /app/posts/first-post
+tags : [ux, design]
+phase: ideation 
+status: draft
+---
+
+h2. competitors
+
+* "Aruba Networks":http://arubanetworks.com - community called "airheads":http://community.arubanetworks.com/
+* "Luxul":http://luxul.com
+* "Ruckus Wireless":http://ruckuswireless.com

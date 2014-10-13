@@ -1,0 +1,93 @@
+---
+layout: layout-site
+---
+
+
+<div class="container">
+  <div class="article {% if post.post-css != nil %} {{post.post-css}} {% else %} post-std {% endif %}">
+
+
+    <!-- begin article head content (date, title, summary, tags) -->
+
+    <div class="article--head container {% if page.header-img %}article--head-img {{ page.header-styles }} {% endif %}" {% if page.header-img %} data-img="{{ page.header-img }}" {% include header-bg-transition %} {% endif %} >
+
+      <div class="article--head-container" {% if page.header-img %} {% include header-transition %} {% endif %}>
+        <div class="article--head--intro" >
+
+          <div class="article--head--date-container" >
+            <div class="article--head--date">{{ page.date | date: "%B %d, %Y" }}</div>    
+          </div> 
+
+        </div>
+
+        <!-- this is for category tags labels -->
+        
+
+        <div class="article--head--title-container" >
+          <div class="article--head--title">{{ page.title }}</div>
+        </div> 
+
+        <div class="article--head--subtitle-container" >
+          <div class="article--head--subtitle">{{ page.summary }}</div>
+        </div> 
+
+        {% if page.project-link %}
+        <div class="article--head--project-link-container" >
+          <div class="article--head--project-link">
+            <a href="{{ page.project-link }}" class="link-external"><div class="btn-inline">{{ page.project-link-desc }}</div></a>
+          </div>
+        </div>
+        {% endif %}
+
+      </div>
+
+
+    </div>
+    <!-- end article head content -->
+
+    <!-- begin article content -->
+
+    <div class="article--body container">
+
+      <!-- 
+      <div class="article--summary-container">
+        <div class="article--summary">{{ page.summary }}</div>
+      </div>  -->
+
+
+
+      <div class="article--body--video-container">
+        <div class="article--body--video">
+          {% if page.youtube %}<iframe width="550" height="452" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>{% endif %}
+          {% if page.vimeo %}<iframe src="{{ page.vimeo }}?title=0&amp;byline=0&amp;portrait=0&amp;color=0f314a" width="550" height="309" frameborder="0"></iframe>{% endif %}    
+        </div>
+      </div>
+
+      <div class="article--body--title-image-container">
+        {% if page.image-path %}      
+          <div class="article--body--title-image"><img class="article--body--title-image--img" src="{{ page.image-path }}" /></div>
+        {% endif %}   
+      </div>
+
+
+      <div class="article--body--content">
+        {{ content }}
+        <div class="clear"></div>
+      </div>
+
+      <div class="article--comments">
+        {% if page.comments == true %} 
+          {% include disqus.html %}
+        {% endif %} 
+      </div>
+        
+    </div>
+
+    <!-- end article body -->
+
+    <div class="clear"></div>
+      
+
+
+  </div>
+</div>

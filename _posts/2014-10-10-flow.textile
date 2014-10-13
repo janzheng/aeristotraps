@@ -1,0 +1,13 @@
+---
+layout: layout-post
+title: UX Flow
+summary: How users flow through the experience
+
+comments: true
+source: /app/posts/first-post
+tags : [ux, flow, design]
+phase: ideation 
+status: draft
+---
+
+h2. placeholder
