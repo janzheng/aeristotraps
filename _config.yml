@@ -13,7 +13,7 @@ navigation:
  - text: workouts
    url: /workouts.html
  - text: skills
-   url: /workouts.html
+   url: /skills.html
  - text: tips
    url: /performance.html
 
