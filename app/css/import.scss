@@ -520,10 +520,6 @@ body, html {
       }
    }
 
-   .draft {
-     color: $light-gray;
-     cursor: default;
-   }
    .nav--blog-menu {
 
       margin-top: $base;
@@ -542,6 +538,12 @@ body, html {
          color: black;
          line-height: $base;
       }
+
+     .draft {
+       color: $light-gray;
+       cursor: default;
+     }
+     
       .active {
         color: $red;
         // text-decoration: underline;

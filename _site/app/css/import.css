@@ -775,10 +775,6 @@ body .filter-btn svg.svg--lab, html .filter-btn svg.svg--lab {
 .nav .nav--menu--content .label span {
   line-height: 1.8rem;
 }
-.nav .draft {
-  color: #ccc;
-  cursor: default;
-}
 .nav .nav--blog-menu {
   margin-top: 1rem;
   padding-top: 1rem;
@@ -795,6 +791,10 @@ body .filter-btn svg.svg--lab, html .filter-btn svg.svg--lab {
 .nav .nav--blog-menu .post--info--title {
   color: black;
   line-height: 1rem;
+}
+.nav .nav--blog-menu .draft {
+  color: #ccc;
+  cursor: default;
 }
 .nav .nav--blog-menu .active {
   color: #972020;
