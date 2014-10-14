@@ -58,7 +58,7 @@
   <div class="nav">
 
     <div class="nav--logo">
-      <a class="nav--logo-link" href="{{site.baseurl}}">
+      <a class="nav--logo-link" href="{{ site.baseurl }}">
         <div class="nav--logo--content ">
           Air to Z Index
         </div>
@@ -70,7 +70,7 @@
       <div class="nav--menu--content">
       <!-- generate links and mark nav as active -->
       {% for item in navlist %} 
-        <a href="{{site.baseurl}}/{{item.url}}">
+        <a href="{{site.baseurl}}{{item.url}}">
           <div class="nav--menu-item nav--menu--home {% if url == item.url %}active{% endif %}" >
             <div class="label"><span>{{item.text}}</span></div>
           </div>
@@ -110,8 +110,7 @@
 
               {% if ind == post.index %}
                 <li class="post">
-
-                  <a class="post--link" href="{{site.baseurl}}/{{ post.url }}">
+                  <a class="post--link" href="{{ site.baseurl }}{{ post.url }}">
                     <div class="post--container {{ post.preview-css }} {% if post.preview-img == nil %} post--preview-no-img {% else %} post--preview-img" data-bg="{{ post.preview-img }} {% endif %}"> 
 
                       <div class="post--info">

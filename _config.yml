@@ -9,7 +9,7 @@ baseurl: /aeristotraps
 
 navigation:
  - text: home
-   url: aeristotraps/
+   url: /
  - text: workouts
    url: /workouts.html
  - text: skills
