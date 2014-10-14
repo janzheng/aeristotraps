@@ -111,7 +111,7 @@
               {% if ind == post.index %}
                 <li class="post">
 
-                  <a class="post--link" href="{{ post.url }}">
+                  <a class="post--link" href="{{site.baseurl}}/{{ post.url }}">
                     <div class="post--container {{ post.preview-css }} {% if post.preview-img == nil %} post--preview-no-img {% else %} post--preview-img" data-bg="{{ post.preview-img }} {% endif %}"> 
 
                       <div class="post--info">
