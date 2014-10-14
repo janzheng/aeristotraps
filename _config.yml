@@ -5,17 +5,20 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /:year/:month/:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "notes.txt"]
-
+baseurl: /aeristotraps
 
 navigation:
  - text: home
-   url: /
+   url: aeristotraps/
  - text: workouts
    url: /workouts.html
  - text: skills
    url: /skills.html
  - text: tips
    url: /performance.html
+ - text: glossary
+   url: /glossary.html
+
 
 sass:
   sass_dir: _sass

@@ -1,0 +1,26 @@
+---
+layout: layout-post
+title: Open Sheet Climb
+
+comments: true
+source: /app/posts/sheet-climb
+status: draft
+
+type : skill
+tags : [climb]
+app :  [fabric]
+index: o
+---
+
+h2. open sheet climb
+
+h3. summary 
+
+Use only one end of the fabric. Open it up wide into a sheet.
+
+
+
+
+h3. references
+
+Refer to the Single Wrap Climb. Similar idea, but uses two poles.

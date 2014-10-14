@@ -1,0 +1,22 @@
+---
+layout: layout-post
+title: Front Balance to Hip Key
+
+comments: true
+source: /app/posts/sheet-climb
+status: draft
+
+type : skill
+tags : [pose, transition]
+app :  [rope, fabric]
+index: m
+---
+
+
+h3. summary 
+
+Start with same side hook. Same arm of the hooked side grab tail, and you use that as a shelf, and you lean into the shelf into a full front balance, and you can hold it as a pose. Transition by holding the bottom hand / tail hand by grabbing under the high hand, thread the upper leg above the pole but under your high hand, squeeze your crotch and hip key over to the other side.
+
+h3. references
+
+Refer to the Single Wrap Climb. Similar idea, but uses two poles.

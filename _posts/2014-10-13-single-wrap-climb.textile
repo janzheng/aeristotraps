@@ -1,0 +1,25 @@
+---
+layout: layout-post
+title: Single Wrap Climb
+
+comments: true
+source: /app/posts/sheet-climb
+status: draft
+
+type : skill
+tags : [climb]
+app :  [fabric]
+index: s
+---
+
+h2. single wrap climb
+
+h3. summary 
+
+toes outside, like a dancers wrap, but single wrap. knee bendy.
+
+
+
+h3. references
+
+Refer to the Single Wrap Climb. Similar idea, but uses two poles.

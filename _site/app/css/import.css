@@ -772,6 +772,13 @@ body .filter-btn svg.svg--lab, html .filter-btn svg.svg--lab {
 .nav .nav--menu--content .nav--menu-item:hover {
   text-decoration: underline;
 }
+.nav .nav--menu--content .label span {
+  line-height: 1.8rem;
+}
+.nav .draft {
+  color: #ccc;
+  cursor: default;
+}
 .nav .nav--blog-menu {
   margin-top: 1rem;
   padding-top: 1rem;
@@ -787,10 +794,7 @@ body .filter-btn svg.svg--lab, html .filter-btn svg.svg--lab {
 }
 .nav .nav--blog-menu .post--info--title {
   color: black;
-}
-.nav .nav--blog-menu .draft {
-  color: #ccc;
-  cursor: default;
+  line-height: 1rem;
 }
 .nav .nav--blog-menu .active {
   color: #972020;
@@ -1513,6 +1517,12 @@ a.link-external .btn-inline--large:hover {
 }
 .article.post-std .article--head .article--head--subtitle-container .article--head--subtitle {
   display: inline-block;
+}
+.article.post-std .article--head .article--draft {
+  color: #972020;
+}
+.article.post-std .article--head .article--draft:after {
+  content: ".";
 }
 .article.post-std .article--body {
   overflow: visible;

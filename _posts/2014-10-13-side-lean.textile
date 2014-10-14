@@ -1,0 +1,26 @@
+---
+layout: layout-post
+title: Side Lean
+
+comments: true
+source: /app/posts/side-lean
+status: published
+
+type : skill
+tags : [key, lean, hitch]
+app :  [fabric]
+index: s
+---
+
+h3. getting in
+
+from a hitch / same-side hook, grab the tail, and post it straight parallel to body. Unwrap the hooked leg, keep legs parallel and close, and rotate hip over to the other side of the posted arm, keeping the arm straight, but following around the pole so it's parallel to legs and ground. End up with legs and arm parallel to ground.
+
+h3. getting out
+
+to come out, open the straight arm out, straight, over the head, and fan release the legs downwards, into a post position.
+
+
+h3. notes
+
+this feels a lot like a hip key, since you end up keyed over, but the fabric isn't wrapped multiple times. This is a lot more open than the hip key, but has the same feeling

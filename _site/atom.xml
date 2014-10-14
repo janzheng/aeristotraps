@@ -3,16 +3,16 @@
     <title>Jan Zheng</title>
     <link href="http://janzheng.com/atom.xml" rel="self"/>
     <link href="http://janzheng.com/"/>
-    <updated>2014-10-13T15:12:30-04:00</updated>
+    <updated>2014-10-14T10:18:26-04:00</updated>
     <id>http://janzheng.com/</id>
     
     
     <entry>
-        <id>janzheng.com:/2014/10/future-features</id>
-        <title>Future Features</title>
-        <link href="http://janzheng.com/2014/10/future-features.html"/>
-        <updated>2014-10-12T00:00:00-04:00</updated>
-        <summary>List of features to add</summary>
+        <id>janzheng.com:/2014/10/single-wrap-climb</id>
+        <title>Single Wrap Climb</title>
+        <link href="http://janzheng.com/2014/10/single-wrap-climb.html"/>
+        <updated>2014-10-13T00:00:00-04:00</updated>
+        <summary></summary>
         <author>
             <name>Jan Zheng</name>
             <uri>http://janzheng.com/</uri>
@@ -20,11 +20,11 @@
     </entry>
     
     <entry>
-        <id>janzheng.com:/2014/10/customer-journey</id>
-        <title>Customer Journey</title>
-        <link href="http://janzheng.com/2014/10/customer-journey.html"/>
-        <updated>2014-10-12T00:00:00-04:00</updated>
-        <summary>How customers interact with Community and Support</summary>
+        <id>janzheng.com:/2014/10/side-lean</id>
+        <title>Side Lean</title>
+        <link href="http://janzheng.com/2014/10/side-lean.html"/>
+        <updated>2014-10-13T00:00:00-04:00</updated>
+        <summary></summary>
         <author>
             <name>Jan Zheng</name>
             <uri>http://janzheng.com/</uri>
@@ -32,11 +32,11 @@
     </entry>
     
     <entry>
-        <id>janzheng.com:/2014/10/requirements</id>
-        <title>Requirements &amp; Requests</title>
-        <link href="http://janzheng.com/2014/10/requirements.html"/>
-        <updated>2014-10-10T00:00:00-04:00</updated>
-        <summary>Internal requirements and requests</summary>
+        <id>janzheng.com:/2014/10/sheet-climb</id>
+        <title>Open Sheet Climb</title>
+        <link href="http://janzheng.com/2014/10/sheet-climb.html"/>
+        <updated>2014-10-13T00:00:00-04:00</updated>
+        <summary></summary>
         <author>
             <name>Jan Zheng</name>
             <uri>http://janzheng.com/</uri>
@@ -44,11 +44,11 @@
     </entry>
     
     <entry>
-        <id>janzheng.com:/2014/10/personas</id>
-        <title>Personas</title>
-        <link href="http://janzheng.com/2014/10/personas.html"/>
-        <updated>2014-10-10T00:00:00-04:00</updated>
-        <summary>Who uses the Community?</summary>
+        <id>janzheng.com:/2014/10/outside-rope-climb</id>
+        <title>Molokom Climb</title>
+        <link href="http://janzheng.com/2014/10/outside-rope-climb.html"/>
+        <updated>2014-10-13T00:00:00-04:00</updated>
+        <summary></summary>
         <author>
             <name>Jan Zheng</name>
             <uri>http://janzheng.com/</uri>
@@ -56,11 +56,11 @@
     </entry>
     
     <entry>
-        <id>janzheng.com:/2014/10/lithium</id>
-        <title>Community Examples</title>
-        <link href="http://janzheng.com/2014/10/lithium.html"/>
-        <updated>2014-10-10T00:00:00-04:00</updated>
-        <summary>Lithium and other community examples</summary>
+        <id>janzheng.com:/2014/10/ninja-climb</id>
+        <title>Ninja Climb</title>
+        <link href="http://janzheng.com/2014/10/ninja-climb.html"/>
+        <updated>2014-10-13T00:00:00-04:00</updated>
+        <summary></summary>
         <author>
             <name>Jan Zheng</name>
             <uri>http://janzheng.com/</uri>
@@ -68,47 +68,11 @@
     </entry>
     
     <entry>
-        <id>janzheng.com:/2014/10/flow</id>
-        <title>UX Flow</title>
-        <link href="http://janzheng.com/2014/10/flow.html"/>
-        <updated>2014-10-10T00:00:00-04:00</updated>
-        <summary>How users flow through the experience</summary>
-        <author>
-            <name>Jan Zheng</name>
-            <uri>http://janzheng.com/</uri>
-        </author>
-    </entry>
-    
-    <entry>
-        <id>janzheng.com:/2014/10/feedback</id>
-        <title>Community Feedback</title>
-        <link href="http://janzheng.com/2014/10/feedback.html"/>
-        <updated>2014-10-10T00:00:00-04:00</updated>
-        <summary>Data & analysis from the feedback</summary>
-        <author>
-            <name>Jan Zheng</name>
-            <uri>http://janzheng.com/</uri>
-        </author>
-    </entry>
-    
-    <entry>
-        <id>janzheng.com:/2014/10/competitors</id>
-        <title>Competitors</title>
-        <link href="http://janzheng.com/2014/10/competitors.html"/>
-        <updated>2014-10-10T00:00:00-04:00</updated>
-        <summary>List of competitors</summary>
-        <author>
-            <name>Jan Zheng</name>
-            <uri>http://janzheng.com/</uri>
-        </author>
-    </entry>
-    
-    <entry>
-        <id>janzheng.com:/2014/10/first</id>
-        <title>Brainstorm</title>
-        <link href="http://janzheng.com/2014/10/first.html"/>
-        <updated>2014-10-09T00:00:00-04:00</updated>
-        <summary>Community notes, thoughts, and work in progress</summary>
+        <id>janzheng.com:/2014/10/front-balance-to-hip-key</id>
+        <title>Front Balance to Hip Key</title>
+        <link href="http://janzheng.com/2014/10/front-balance-to-hip-key.html"/>
+        <updated>2014-10-13T00:00:00-04:00</updated>
+        <summary></summary>
         <author>
             <name>Jan Zheng</name>
             <uri>http://janzheng.com/</uri>

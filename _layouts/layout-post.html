@@ -22,7 +22,6 @@ layout: layout-site
 
         <!-- this is for category tags labels -->
         
-
         <div class="article--head--title-container" >
           <div class="article--head--title">{{ page.title }}</div>
         </div> 
@@ -30,6 +29,10 @@ layout: layout-site
         <div class="article--head--subtitle-container" >
           <div class="article--head--subtitle">{{ page.summary }}</div>
         </div> 
+
+        {% if page.status == 'draft' %}
+            <div class="article--draft">{{ page.status }}</div>
+        {% endif %}
 
         {% if page.project-link %}
         <div class="article--head--project-link-container" >
