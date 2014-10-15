@@ -1,0 +1,67 @@
+---
+layout: layout-post
+title: Notes
+
+source: /app/posts/intro
+---
+
+
+h2. just some notes
+
+Ideas and thoughts that aren't supposed to go live
+
+
+
+
+h2. workouts
+
+Shannon's range of workouts
+
+
+h2. skills
+
+to be added
+
+# russian climb
+# russian squat (just sit down into the russian climb)
+# bicycle climb
+# high bicycle climb
+# russian squat to hip key transition
+# same side hook drop: get into same side hook, look the tail around straight foot, wrap the tail around th (dangerous- need spotter)
+# crucifix drop
+# straddle back
+# crucifix to hip key
+# straddle back
+# crucifix 2: first part of crucifix, but instead of wrapping around waist a second time, wrap around knees like when in a hitch or knee hook. climb or rock and roll up, back arch, and you can forward dive from there
+# rock and roll transition: instead of struggling to grab higher, momentum back, and kick up into higher (as a power move)
+# crucifix transition
+# hitch / same side knee hook
+# (opposite side) knee hook
+# creature climb
+# opposite side knee climb
+# front balance (to hip key)
+
+
+
+h2. glossary
+
+# pole
+# tail
+
+
+h2. other notes
+
+# transitions are the glue that keeps things together
+# spend more time on slowing down
+# simple is more
+# technical is boring, especially for other aerialists. Think of ways to obscure or sleight technical moves with transitions that people don't really think about
+# improv. Lead with body parts. Contract and stretch the body. Straight and bent. Think shapes and emotions. Every move to be intentional. Arch or bend. Move to music.
+# performing for non-aerialists and aerialists is different. Both groups are impressed by very different things, many times opposite. Non-aerialists like flashy stuff, much is non-difficult. (Meat hooks are only impressive to aerialists, while non-aerialists like splits and crucifix, etc.)
+# be less grabby. Hold with intent, especially when up and down climbing. Use other body parts to go up or down
+
+
+h2. future
+
+# add a workout randominzer. Select what body parts and what to work out, and your workout time frame (10 min, or 1 hr workout, etc.), and the system will select a set workout for you
+
+# AudioCue group music notation tool - what happens at what time cues in music (similar to SoundCloud)

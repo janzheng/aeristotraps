@@ -478,9 +478,12 @@ body, html {
         @include media($break-nav-mobile) {
           height: 40px;
           width: 25%; float: left;
-          text-align: center;
+          // text-align: center;
           .label { padding-top: 10px; }
-          &:first-child {@include shift(1.5); }
+            padding-left: $base/2; 
+            margin-bottom: $base; 
+
+          // &:first-child {@include shift(1.5); }
         }
 
         @include media($break-nav-thin-atleast) { 
@@ -495,7 +498,6 @@ body, html {
            
           @include media($break-nav-mobile) {
             width: 100%;
-            text-align: center;
           }
           // @include media($break-nav-thin) { opacity: 0.1;}
           @include media($break-nav-thin-atleast) { 

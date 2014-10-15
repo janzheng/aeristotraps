@@ -14,10 +14,10 @@ navigation:
    url: /workouts.html
  - text: skills
    url: /skills.html
- - text: tips
-   url: /performance.html
  - text: glossary
    url: /glossary.html
+ - text: thoughts
+   url: /thoughts.html
 
 
 sass:

@@ -26,5 +26,7 @@ The content is split into workouts and skills.
 
 *Skills* include ground, dance, and air movements, transitions, tricks, and drops for fun and for performances. 
 
-*Thoughts* include ideas for improvisation and showcasing. 
+*Thoughts* includes ideas for improvisation and showcasing. 
+
+*Glossary* contains common terms. 
 </div>
