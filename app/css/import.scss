@@ -470,6 +470,11 @@ body, html {
 
       @include media($break-nav-mobile) {
         @include row();
+
+        a {
+          display: block;
+          // @include row();
+        }
       }
 
       .nav--menu-item {
@@ -477,8 +482,10 @@ body, html {
 
         @include media($break-nav-mobile) {
           height: 40px;
-          width: 25%; float: left;
-          // text-align: center;
+          // width: 25%; 
+          padding-right: $base;
+          float: left;
+          text-align: center;
           .label { padding-top: 10px; }
             padding-left: $base/2; 
             margin-bottom: $base; 
