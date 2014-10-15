@@ -684,6 +684,11 @@ body .filter-btn svg.svg--lab, html .filter-btn svg.svg--lab {
 @media screen and (max-width: 479px) {
   .nav {
     height: 12rem;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    -moz-box-shadow: inset 0 8px 8px -8px #ccc, inset 0 -8px 8px -8px #ccc;
+    -webkit-box-shadow: inset 0 8px 8px -8px #ccc, inset 0 -8px 8px -8px #ccc;
+    box-shadow: inset 0 8px 8px -8px #ccc, inset 0 -8px 8px -8px #ccc;
   }
 }
 @media screen and (min-width: 480px) {
@@ -700,7 +705,7 @@ body .filter-btn svg.svg--lab, html .filter-btn svg.svg--lab {
 }
 @media screen and (max-width: 479px) {
   .nav .nav--logo .nav--logo--content {
-    opacity: 0;
+    display: none;
   }
 }
 @media screen and (min-width: 480px) {
